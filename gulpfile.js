@@ -64,3 +64,17 @@ gulp.task('watch', ['express'], function () {
   gulp.watch(['./src/*.{html,css}', './dist/index.html'], ['concat']);
 });
 
+//Deploy task
+gulp.task('deploy', function() {
+  var exec = require('child_process').exec,
+      child;
+
+  child = exec('git subtree push --prefix dist origin master',
+    function (error, stdout, stderr) {
+      console.log('stdout: ' + stdout);
+      console.log('stderr: ' + stderr);
+      if (error !== null) {
+        console.log('exec error: ' + error);
+      }
+  });
+});
