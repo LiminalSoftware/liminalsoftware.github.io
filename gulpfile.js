@@ -56,7 +56,7 @@ gulp.task('concat', ['css'], function () {
     .pipe(livereload())
 });
 
-//gulp.task('build', ['css', 'concat']);
+gulp.task('build', ['concat']);
 
 //Watch task
 gulp.task('watch', ['express'], function () {
