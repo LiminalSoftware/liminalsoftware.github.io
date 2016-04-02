@@ -1,0 +1,49 @@
+
+.code-row {
+  display: block;
+  height: 30px;
+  line-height: 40px;
+  padding: 5px;
+  text-align: left;
+  overflow: hidden;
+}
+.code-row--hilite {
+  background: navy;
+}
+
+.code-row--indent-0 {
+  padding-left: 10px;
+}
+
+.code-row--indent-1 {
+  padding-left: 30px;
+}
+
+.code-row--indent-2 {
+  padding-left: 50px;
+}
+
+.code-word, .code-cursor {
+  display: inline-block;
+  height: 20px;
+  
+}
+.code-word {
+  margin-left: 8px;
+  /*background-color: gray;*/
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+.code-cursor {
+  display: inline-block;
+  width: 10px;
+  margin-right: -10px;
+  background-color: violet;
+  border: 1px solid violet;
+}
+.code-cursor--blink {
+  background-color: transparent !important;
+  border: 1px solid violet;
+}
+

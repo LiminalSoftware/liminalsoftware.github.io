@@ -1,86 +1,104 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link href="css/liminal.css" rel="stylesheet">
+  
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Biryani:900' rel='stylesheet' type='text/css'>
 
-    <title>Liminal Software</title>
-    <meta name="description" content="...">
-    <link rel="stylesheet" href="bundle.css">
-    <link rel="canonical" href="https://liminal.ly">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.6/hammer.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
 </head>
 <body>
-<header class="post-header">
-    <div class="logo">
-        <a href="http://liminal.ly">
-            <img class="logo-image" src="images/logo.svg" alt="logo">
-        </a>
-    </div>
-</header>
-<div class="container">
-    <div class="mid-container">
-        <div class="box-container">
-            <div class="box">
-                <p class="box-text">
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit,
-                </p>
-                <div class="box-icon">
-                    <img src="images/browser.svg" alt=""/>
-                </div>
-                <div class="box-bottom">
-                    <div class="box-label">
-                        <img src="images/web-dev.svg" alt="web-dev"/>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <p class="box-text">
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit,
-                </p>
-                <div class="box-icon">
-                    <img src="images/browser.svg" alt=""/>
-                </div>
-                <div class="box-bottom">
-                    <div class="box-label">
-                        <img src="images/mobile-dev.svg" alt="web-dev"/>
-                    </div>
-                </div>
-            </div>
-            <div class="box">
-                <p class="box-text">
-                    Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit,
-                </p>
-                <div class="box-icon">
-                    <img src="images/design-tools.svg" alt=""/>
-                </div>
-                <div class="box-bottom">
-                    <div class="box-label">
-                        <img src="images/design.svg" alt="web-dev"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="js-component-scroll-hijack scroll-hijack">
 
-<div class="links-container">
-    <ul class="links">
-        <li class="">
-            <a class="link" href="https://github.com/liminalsoftware">github</a>
-        </li>
-        <li class="">
-            <a class="link" href="about.html">about</a>
-        </li>
-        <li class="">
-            <a class="link" href="contact.html">contact</a>
-        </li>
+    <ul class="section-index">
     </ul>
-</div>
-<script type="text/javascript">
-console.log('hello world 2');
-</script>
+
+    <div class="scroll-hijack__slides">
+      
+      <div class="scroll-hijack__slides__slide section--title">
+        <div class="scroll-hijack__slides__slide__content">
+          <div class="brand-box">
+            <h1>LIMINAL</h1>
+            <span class="stacked">
+              <h2>TECHNOLOGY CONSULTANTS</h2>
+              <h2>BROOKLYN, NY</h2>
+            </span>
+            
+          </div>
+        
+        
+          <div class="hero" id="code-hero"></div>
+        </div>
+      </div>
+
+      <div class="scroll-hijack__slides__slide section--green">
+        <div class="scroll-hijack__slides__slide__content">
+          <div class="brand-box">
+          <h2 class="half slide-head">Product Design</h2>
+          <span class="copy half">
+            <p>
+            Shipping software is hard--probably even harder than you think.  Developing your idea into something tangible and feasible is critical to success.   We can help you document the offering, flesh out features and cut those features back until you've got something useable, but also realistic.
+            </p>
+            <p>
+            Because otherwise, you're going to be that weird guy at a party who keeps going on about how he invented hooley.
+            </p>
+          </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hijack__slides__slide section--blue">
+        <div class="scroll-hijack__slides__slide__content">
+          <div class="brand-box">
+          <h2 class="half slide-head">Prototyping</h2>
+          <span class="copy half">
+            <p>When it makes sense, we use modern web technologies and prototyping tools to turn out functional prototypes quickly. In some cases, we can turn out a prototype app faster than most agency types push non-functional wireframes.  That means we can iterate faster, find problems sooner and land on a design you love.  And, when you are happy with the design, we're already halfway (or maybe quarter-way) done with your solution.</p>
+          </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hijack__slides__slide section--dark">
+        <div class="scroll-hijack__slides__slide__content">
+          <div class="brand-box">
+          <h2 class="half slide-head">Development</h2>
+          <span class="copy half">
+            <p>Delivering a production ready product takes work and attention to detail.  Your public facing web-app needs to support a range of browsers and platforms as diverse as your customers.  Our team will dot i's and cross t's to make sure every customer has the same great experience.  And if you're building a mobile app, we'll make sure it works on iOS, Android and even Windows.
+            </p>
+            <p>
+            While you are focused on releasing your product, we are thinking ahead to make sure that your next release ships just as smoothly as the first.  That means, when we fix a bug, you won't hear about it two months later and if you do, it's because we caught it before it shipped.
+            </p>
+          </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hijack__slides__slide section--purple">
+        <div class="scroll-hijack__slides__slide__content">
+          <div class="brand-box">
+          <h2 class="half slide-head">Operations</h2>
+          <span class="copy half">
+            <p>
+            Production can be a scary place.  We do everything we can to make it less scary.  Things like: monitoring, continuous testing, configuration management and automated builds.  We will also be thinking about things you don't want to be thinking about like APIs, CDNs, DDOSs and SSLs.  
+            </p>
+            <p>
+            Which is all to say, if you wake up in the middle of the night, it's probably because you need to pee.
+            </p>
+          </span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </meta>
+  <script type="text/javascript" src="js/liminal.js"></script>
 </body>
 </html>

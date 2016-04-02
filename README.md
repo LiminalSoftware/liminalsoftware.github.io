@@ -1,29 +1,31 @@
-##Instructions
+# Agency by Start Bootstrap [![Build Status](https://travis-ci.org/IronSummitMedia/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/IronSummitMedia/startbootstrap-agency)
 
-* clone the repo
-* npm install
-* gulp watch
-* navigate to http://localhost:4034/dist/
+Agency is a one page HTML theme for agencies created by Start Bootstrap. This repository is a pre-release that we are using to test integrating themes with Grunt, Bower, and ultimately, creating Yeoman and Brunch scaffolds for all of our open source templates and themes.
 
-###Deploying to github pages
+To access the current version of this template, visit http://startbootstrap.com/template-overviews/agency/.
 
-1. Build your distributuion: `gulp build`
-1. Make sure you've committed the built files: `git add dist && git commit -m 'build'`
-1. Deploy using `git subtree push`: `git subtree push --prefix dist origin master`
-  _NOTE: this assumes your remote is called `origin` and is the liminalsoftware.github.io repo at github (git@github.com:LiminalSoftware/liminalsoftware.github.io.git)_
+## Screenshot
+![](http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/templates/agency.jpg)
 
-  You'll see output similar to this:
+## Installation
 
-  ```
-  [13:43:09] Using gulpfile ~/Projects/liminal/landing/gulpfile.js
-  [13:43:09] Starting 'deploy'...
-  [13:43:09] Finished 'deploy' after 4.01 ms
-  stdout: git push using:  origin master
+- Fork the source files from this repository.
+- Run `npm install` in the root directory to install Grunt dependencies.
+- Run `bower install` in the root directory to install Bower dependencies.
 
-  stderr: -n 1/       4 (0)
-  -n 2/       4 (1)
-  -n 3/       4 (2)
-  -n 4/       4 (3)
-  To git@github.com:LiminalSoftware/liminalsoftware.github.io.git
-     3558658..8231ed8  8231ed8b0e6cc72171c0367f41f79780e4906697 -> master
-  ```
+You are now ready to work with the theme! Feel free to edit the Gruntfile as you see fit. It's recommended that you have a working knowledge of Grunt and Bower before attempting to use these source files. If you want the easy to use, HTML/CSS version of this template, you can download it at http://startbootstrap.com/template-overviews/agency/.
+
+## Grunt Tasks
+
+- `grunt` will run all Grunt tasks. It will build the dist folder based on the specifications set up in the Gruntfile.
+- `grunt watch` will watch specified files for changes, and automatically build them within the dist folder.
+
+## Support
+
+If you have questions about the theme you can submit an issue here on GitHub or you can leave a comment on the theme overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/agency/.
+
+## Contributing
+
+If you have fixed a bug with the template feel free to open a pull request and I will review and merge the request.
+
+*NOTE: Pull requests with new features will most likely not be added to the base theme! The templates and themes on Start Bootstrap are meant to be starting points for people to work off of, and I don't typically add any new feature unless they are frequently asked for.*
