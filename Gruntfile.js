@@ -104,6 +104,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['concat', 'uglify', 'copy', 'less', 'usebanner']);
+    grunt.registerTask('default', ['concat', 'uglify', 'copy', 'less']);
 
 };
